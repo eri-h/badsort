@@ -3,7 +3,7 @@ package hogwash;
 import java.util.ArrayList;
 
 
-public class UnknownSort<T extends Comparable<T>> extends Sort<T> {
+public class UnknownSort<T extends Comparable<T>> implements Sort<T> {
 	private int[] insertionIndex = new int[2];
 	private int currentInsertion;
 	private int indexA;

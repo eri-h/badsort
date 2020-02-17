@@ -2,7 +2,7 @@ package hogwash;
 
 import java.util.ArrayList;
 
-public class Quicksort<T extends Comparable<T>> extends Sort<T> {
+public class Quicksort<T extends Comparable<T>> implements Sort<T> {
 	@Override
 	public void sort(ArrayList<T> list){
 		sort(list, 0, list.size()-1);

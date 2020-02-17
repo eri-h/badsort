@@ -3,7 +3,7 @@ package hogwash;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class Bogosort<T extends Comparable<T>> extends Sort<T> {
+public class Bogosort<T extends Comparable<T>> implements Sort<T> {
 	private Random random = new Random();
 	
 	@Override

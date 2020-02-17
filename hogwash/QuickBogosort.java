@@ -18,7 +18,7 @@ import java.util.Random;
  * before bogosort since quick bogosort is objectively superior.
  * 
  ************************************************************************/
-public class QuickBogosort<T extends Comparable<T>> extends Sort<T> {
+public class QuickBogosort<T extends Comparable<T>> implements Sort<T> {
 	private Random random = new Random();
 	
 	@Override
